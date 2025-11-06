@@ -15,10 +15,11 @@ def bot():
         button_pos = pyautogui.locateOnScreen('play.PNG')
         pyautogui.moveTo(button_pos)
         pyautogui.click()
-        time.sleep(25) #change to average time to load up a roblox game (seconds)
+        time.sleep(6) #change to average time to load up a roblox game (seconds)
         button_pos = pyautogui.locateOnScreen('exit.PNG')
         pyautogui.moveTo(button_pos)
         pyautogui.click()
         botted += 1
         os.system(f'title Roblox Visit Bot (...)#4953 ^| Botted: {botted} ^')
 bot()
+
